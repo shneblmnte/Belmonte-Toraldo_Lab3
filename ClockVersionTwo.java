@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ClockVersionTwo {
+public class ClockVersionTwo { //Class name
   
   public double SecondstoMinutes(double seconds){ //Method to convert seconds to minutes
     return seconds / 60.0;
@@ -11,13 +11,13 @@ public class ClockVersionTwo {
   public double MinutestoSeconds(double minutes){  //Method to convert minutes to seconds
     return minutes * 60;
   }
-  public double MinutestoHours(double minutes){
+  public double MinutestoHours(double minutes){ //Method to convert minutes to hours
     return minutes / 60;
   }
-  public double HourstoSeconds(double hours){
+  public double HourstoSeconds(double hours){  //Method to convert hours to seconds
     return hours * 3600;
   }
-  public double HourstoMinutes(double hours){
+  public double HourstoMinutes(double hours){  //Method to convert hours to minutes
     return hours * 60;
   }
 
@@ -27,7 +27,7 @@ public class ClockVersionTwo {
     ClockVersionTwo clock2 = new ClockVersionTwo();
     boolean conversion = true;
   
-    while (conversion) {
+    while (conversion) { //To display the conversion list
         System.out.println("[1] Seconds to Minutes");
         System.out.println("[2] Seconds to Hours");
         System.out.println("[3] Minutes to Seconds");
@@ -40,7 +40,7 @@ public class ClockVersionTwo {
           int value = input.nextInt();
           double result = 0;
   
-      switch (choiceNum) {
+      switch (choiceNum) { //Use case to execute the different choices in the menu
         case 1:
           result = clock2.SecondstoMinutes(value);
           System.out.println("Seconds to Minutes: " + result);

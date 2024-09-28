@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Class
+//Class name
 public class ClockVersionThree {
 
     //Method to convert seconds to minutes
@@ -32,7 +32,7 @@ public class ClockVersionThree {
         Scanner scanner = new Scanner(System.in);
         char continueConversion;
         
-        //To display the menu
+        //To display the conversion list
         do {
             System.out.println("[1] Seconds to Minutes");
             System.out.println("[2] Seconds to Hours");

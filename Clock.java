@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Clock {
+public class Clock { //Class name
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double result = 0;
         boolean conversion = true;
         
         {
-            while (conversion) {
+            while (conversion) { //To display the conversion list
                 System.out.println("[1] Seconds to Minutes");
                 System.out.println("[2] Seconds to Hours");
                 System.out.println("[3] Minutes to Seconds");
@@ -19,7 +19,7 @@ public class Clock {
                 System.out.print("Enter the value: ");
                   int value = input.nextInt();
                 
-            switch (choice) {
+            switch (choice) { //Use case to execute the different choices in the menu
                 case 1:
                     result = value / 60; //Method to convert seconds to minutes
                     System.out.println("Seconds to Minutes: " + result );
@@ -33,15 +33,15 @@ public class Clock {
                     System.out.println("Minutes to Seconds: " + result);
                     break;
                 case 4:
-                    result = value / 60;
+                    result = value / 60; //Method to convert minutes to hours
                     System.out.println("Minutes to Hours: " + result);
                     break;
                 case 5:
-                    result = value * 60;
+                    result = value * 60;  //Method to convert hours to seconds
                     System.out.println("Hours to Seconds: " + result);
                     break;
                 case 6:
-                    result = value * 60;
+                    result = value * 60;  //Method to convert hours to minutes
                     System.out.println("Hours to Minutes: " + result);
                     break;
              } 
