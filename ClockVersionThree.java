@@ -32,7 +32,7 @@ public class ClockVersionThree {
         Scanner scanner = new Scanner(System.in);
         char continueConversion;
         
-        //To display the conversion list
+        //To display the conversion list or menu
         do {
             System.out.println("[1] Seconds to Minutes");
             System.out.println("[2] Seconds to Hours");
