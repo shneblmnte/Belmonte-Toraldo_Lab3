@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Clock {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // To be able to do inputting and scanned the input numbers.
+        Scanner input = new Scanner(System.in);
         double result = 0;
         boolean conversion = true;
         
@@ -21,15 +21,15 @@ public class Clock {
                 
             switch (choice) {
                 case 1:
-                    result = value / 60;
+                    result = value / 60; //Method to convert seconds to minutes
                     System.out.println("Seconds to Minutes: " + result );
                     break;
                 case 2:
-                    result = value / 3600;
+                    result = value / 3600; //Method to convert seconds to hours
                     System.out.println("Seconds to Hours: " + result);
                     break;
                 case 3:
-                    result = value * 60;
+                    result = value * 60;  //Method to convert minutes to seconds
                     System.out.println("Minutes to Seconds: " + result);
                     break;
                 case 4:
