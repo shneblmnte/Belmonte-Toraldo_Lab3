@@ -29,7 +29,7 @@ public class Clock { //Class name
                     System.out.println("Seconds to Hours: " + result);
                     break;
                 case 3:
-                    result = value * 60;  //Method to convert minutes to seconds
+                    result = value * 60; //Method to convert minutes to seconds
                     System.out.println("Minutes to Seconds: " + result);
                     break;
                 case 4:
@@ -37,7 +37,7 @@ public class Clock { //Class name
                     System.out.println("Minutes to Hours: " + result);
                     break;
                 case 5:
-                    result = value * 60;  //Method to convert hours to seconds
+                    result = value * 60; //Method to convert hours to seconds
                     System.out.println("Hours to Seconds: " + result);
                     break;
                 case 6:
