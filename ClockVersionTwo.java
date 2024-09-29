@@ -8,7 +8,7 @@ public class ClockVersionTwo { //Class name
   public double SecondstoHours(double seconds) {  //Method to convert seconds to hours
     return seconds / 3600;
   }
-  public double MinutestoSeconds(double minutes){  //Method to convert minutes to seconds
+  public double MinutestoSeconds(double minutes){ //Method to convert minutes to seconds
     return minutes * 60;
   }
   public double MinutestoHours(double minutes){ //Method to convert minutes to hours
