@@ -14,7 +14,7 @@ public class ClockVersionTwo { //Class name
   public double MinutestoHours(double minutes){ //Method to convert minutes to hours
     return minutes / 60;
   }
-  public double HourstoSeconds(double hours){ //Method to convert hours to seconds
+  public double HourstoSeconds(double hours){  //Method to convert hours to seconds
     return hours * 3600;
   }
   public double HourstoMinutes(double hours){  //Method to convert hours to minutes

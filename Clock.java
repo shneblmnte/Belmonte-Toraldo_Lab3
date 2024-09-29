@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Clock { //Class name
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // To be able to do inputting and scanned the input numbers.
+        Scanner input = new Scanner(System.in);
         double result = 0;
         boolean conversion = true;
         
