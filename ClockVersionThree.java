@@ -1,5 +1,3 @@
-//The print output for issue1
-
 import java.util.Scanner;
 
 //Class name
