@@ -1,4 +1,4 @@
-//The other print output for issue1
+//The other print output for issue1.
 
 import java.util.Scanner;
 
