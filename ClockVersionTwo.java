@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class ClockVersionTwo { //Class name
   
   public double SecondstoMinutes(double seconds){ //Method to convert seconds to minutes
-    return seconds / 60.0;
+    return seconds / 60;
   }
-  public double SecondstoHours(double seconds){ //Method to convert seconds to hours
-    return seconds * 3600;
+  public double SecondstoHours(double seconds) {  //Method to convert seconds to hours
+    return seconds / 3600;
   }
   public double MinutestoSeconds(double minutes){  //Method to convert minutes to seconds
     return minutes * 60;
